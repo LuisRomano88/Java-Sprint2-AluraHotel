@@ -375,7 +375,7 @@ public class ReservasView extends JFrame {
 		if (fechaE.getDate() != null && fechaS.getDate() != null ) {
 
 			if(inicio.after(fin)){
-				JOptionPane.showMessageDialog(null, "Error en las fechas selecionadas");
+				JOptionPane.showMessageDialog(null, "Error al ingresar fechas");
 
 				
 			}else {
